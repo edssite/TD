@@ -16,7 +16,7 @@ header nav {
   gap: 0 24px;
   margin: auto;
   max-width: 1248px;
-  height: var(--nav-height);
+  height: 80px;
   padding: 0 24px;
   font-family: var(--body-font-family);
 }
@@ -145,7 +145,7 @@ header .nav-brand {
 }
 
 header nav .nav-brand img {
-  width: 128px;
+  width: 70px;
   height: auto;
 }
 
@@ -166,11 +166,23 @@ header nav[aria-expanded='true'] .nav-sections {
 header nav .nav-sections ul {
   list-style: none;
   padding-left: 0;
+  color: green;
+  font-size: var(--body-font-size-s);
+}
+
+header nav .nav-sections ul:hover {
+  list-style: none;
+  padding-left: 0;
   font-size: var(--body-font-size-s);
 }
 
 header nav .nav-sections ul > li {
   font-weight: 500;
+}
+
+header nav .nav-sections ul > li:hover {
+  font-weight: 500;
+  color: black;
 }
 
 header nav .nav-sections ul > li > ul {
@@ -265,4 +277,14 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+}
+
+
+.nav-tools > div {
+  display: flex;
+}
+
+.nav-tools > div img {
+  width: 30px;
+  height: 30px;
 }
