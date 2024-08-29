@@ -18,3 +18,9 @@ footer .footer p {
     padding: 40px 32px 24px;
   }
 }
+
+.footer-links > div:first-child > div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
