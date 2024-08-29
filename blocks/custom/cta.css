@@ -1,0 +1,72 @@
+.cta-container {
+    display: flex;
+    justify-content: center; /* Centers the two main divs horizontally */
+    align-items: center; /* Centers the two main divs vertically */
+    padding-top: 40px;
+}
+.cta-container > .default-content-wrapper {
+    width: 300px;
+}
+
+
+.cta-container > .default-content-wrapper img{
+    width: 300px;
+}
+
+
+.cta {
+    width: 900px;
+}
+
+.cta h2 {
+    color: rgb(0, 62, 0);
+}
+
+.cta > div:nth-child(2) p{
+    font-weight: 700;
+}
+
+
+.cta > div:nth-child(3) {
+    display: flex;
+    gap: 20px;
+}
+
+.cta > div:nth-child(3) > div {
+    width: 400px;
+    height: 100px;
+}
+
+.cta > div:nth-child(3) > div:first-child {
+    border-right: solid 1px rgb(198, 198, 198);
+}
+
+.cta > div:nth-child(3) > div:last-child {
+    border-left: solid 1px rgb(198, 198, 198);
+}
+
+.cta > div:nth-child(3) > div {
+    padding: 15px;
+}
+
+.cta .button-container a.button:any-link {
+    background-color: orange;
+    border-radius: 0;
+    color: black;
+    font-weight: 700;
+    font-size: large;
+    padding-right: 140px;
+    padding-left: 140px;
+}
+
+
+.cta .button-container a.button:any-link:hover {
+    background-color: rgb(197, 129, 1);
+    border-radius: 0;
+    color: black;
+    font-weight: 700;
+    font-size: large;
+    padding-right: 140px;
+    padding-left: 140px;
+}
+

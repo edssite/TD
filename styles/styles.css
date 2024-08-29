@@ -10,6 +10,8 @@
  * governing permissions and limitations under the License.
  */
 
+ @import url("../blocks/custom/cta.css");
+
 :root {
   /* colors */
   --background-color: white;
@@ -20,8 +22,8 @@
   --link-hover-color: #1d3ecf;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --body-font-family: arial, roboto, roboto-fallback, sans-serif;
+  --heading-font-family: arial,roboto-condensed, roboto-condensed-fallback, sans-serif;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -233,9 +235,6 @@ main > .section {
 }
 
 main > .section > div {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 24px;
 }
 
 main > .section:first-of-type {
