@@ -11,6 +11,9 @@
  */
 
  @import url("../blocks/custom/cta.css");
+ @import url("../blocks/custom/cta-2.css");
+ @import url("../blocks/custom/three-actions.css");
+ @import url("../blocks/custom/deposit-bottom.css");
 
 :root {
   /* colors */
