@@ -11,7 +11,10 @@
  */
 
  @import url("../blocks/custom/cta.css");
+ @import url("../blocks/custom/cta2.css");
+ @import url("../blocks/custom/td-img+bullets.css");
 
+ 
 :root {
   /* colors */
   --background-color: white;
@@ -232,9 +235,6 @@ main img {
 /* sections */
 main > .section {
   margin: 40px 0;
-}
-
-main > .section > div {
 }
 
 main > .section:first-of-type {
