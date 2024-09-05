@@ -17,6 +17,7 @@
  @import url("../blocks/custom/one-col.css");
  @import url("../blocks/custom/heading.css");
  @import url("../blocks/custom/cta-flex.css");
+ @import url("../blocks/custom/image-info.css");
 
 :root {
   /* colors */
