@@ -1,0 +1,30 @@
+.one-col-container {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center;    /* Centers items vertically */
+}
+
+.one-col h3 {
+    font-size: large;
+}
+
+.one-col p {
+    color: gray;
+}
+
+.one-col a[href] {
+    color: green;
+}
+
+.one-col > div {
+    position: relative;
+    padding-left: 20px; /* Add some padding to make room for the bullet */
+}
+
+.one-col > div::before {
+    content: '•'; /* This is the bullet point symbol */
+    position: absolute;
+    left: 0;
+    color: black; /* You can set the color of the bullet */
+    font-size: 1.2em; /* Adjust the size of the bullet if needed */
+}

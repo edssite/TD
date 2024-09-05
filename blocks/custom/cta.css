@@ -19,7 +19,7 @@
 }
 
 .cta h2 {
-    color: rgb(0, 62, 0);
+    color: var(--heading-color-td);
 }
 
 .cta > div:nth-child(2) p{
