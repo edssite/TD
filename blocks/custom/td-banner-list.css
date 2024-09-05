@@ -1,0 +1,81 @@
+.td-banner-list-container{
+    display: flex;
+    background-color: #fbfcf5;
+}
+
+.td-banner-list{
+    padding-top: 15px;
+    margin-left: 200px;
+}
+.td-banner-list h2{
+    color: rgb(0, 62, 0);
+    font-size: 22px;
+}
+
+.td-banner-list >div:first-child{
+    padding-bottom: 20px;
+}
+
+
+.td-banner-list p{
+    font-size: 15px;
+}
+
+.td-banner-list >div:nth-child(2){
+    display: flex;
+    background-color:#fafafa;
+    gap:295px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.td-banner-list >div:nth-child(3){
+    display: flex;
+    gap:140px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.td-banner-list >div:nth-child(4){
+    display: flex;
+    gap:100px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.td-banner-list >div:nth-child(5){
+    display: flex;
+    gap:120px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.td-banner-list >div:nth-child(6){
+    display: flex;
+    gap:165px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.td-banner-list >div:nth-child(7){
+    display: flex;
+    gap:90px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.td-banner-list >div:nth-child(8){
+    display: flex;
+    gap:95px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.td-banner-list >div:nth-child(9){
+    display: flex;
+    gap:15px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.td-banner-list >div:nth-child(10){
+    display: flex;
+    gap:185px;
+}
+
+.td-banner img{
+    width: 800px;
+    height: auto;
+}

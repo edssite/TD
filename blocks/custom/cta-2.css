@@ -1,0 +1,40 @@
+.cta-2 {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center;    /* Centers items vertically */
+    text-align: center;     /* Centers text inside the items if needed */
+    height: 100%;           /* Ensure the container has a height if needed */
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgb(197, 197, 197);
+}
+
+.cta-2 h2 {
+    color: var(--heading-color-td);
+    font-size: x-large;
+}
+
+.cta-2 p {
+    font: x-small;
+    color: rgb(81, 81, 81);
+}
+
+.cta-2 .button-container a.button:any-link {
+    background-color: rgb(10, 126, 10);
+    border-radius: 0;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    padding-right: 140px;
+    padding-left: 140px;
+}
+
+.cta-2 .button-container a.button:any-link:hover {
+    background-color: rgb(7, 102, 7);
+    border-radius: 0;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    padding-right: 140px;
+    padding-left: 140px;
+}

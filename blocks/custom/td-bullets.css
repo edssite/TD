@@ -1,0 +1,21 @@
+.td-bullets-wrapper{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.td-bullets-heading h2{
+    color: rgb(0, 62, 0);
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.td-bullets{
+    display: flex;
+    font-size: 15px;
+}
+
+.td-bullets > div:first-child ul > li, div:last-child ul > li{
+    margin-bottom: 20px;
+}

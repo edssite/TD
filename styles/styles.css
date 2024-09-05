@@ -11,8 +11,15 @@
  */
 
  @import url("../blocks/custom/cta.css");
- @import url("../blocks/custom/cta2.css");
- @import url("../blocks/custom/td-img+bullets.css");
+ @import url("../blocks/custom/cta-2.css");
+ @import url("../blocks/custom/td-cta.css");
+ @import url("../blocks/custom/td-img-bullets.css");
+ @import url("../blocks/custom/deposit-bottom.css");
+ @import url("../blocks/custom/three-actions.css");
+ @import url("../blocks/custom/td-bullets.css");
+ @import url("../blocks/custom/td-banner-list.css");
+ @import url("../blocks/custom/cards.css");
+
 
  
 :root {
