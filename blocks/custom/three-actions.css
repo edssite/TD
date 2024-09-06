@@ -1,0 +1,70 @@
+.three-actions {
+    display: flex;
+}
+
+.three-actions > div {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center;    /* Centers items vertically */
+    text-align: center;     /* Centers text inside the items if needed */
+    height: 100%;           /* Ensure the container has a height if needed */
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-left: 1px solid rgb(197, 197, 197);
+}
+
+.three-actions > div:first-child {
+    border-left: none;
+
+}
+
+.three-actions > div {
+    width: 80%;
+    height: 350px;
+}
+
+.three-actions h3 {
+    font-size: large;
+}
+
+.three-actions > div:first-child .button-container a.button:any-link {
+    background-color: orange;
+    border-radius: 0;
+    color: black;
+    font-weight: 700;
+    font-size: large;
+    padding-right: 140px;
+    padding-left: 140px;
+}
+
+.three-actions > div:first-child .button-container a.button:any-link:hover {
+    background-color: rgb(205, 135, 4);
+    border-radius: 0;
+    color: black;
+    font-weight: 700;
+    font-size: large;
+    padding-right: 140px;
+    padding-left: 140px;
+}
+
+.three-actions > div .button-container a.button:any-link {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0;
+    border-color: green;
+    color: green;
+    font-weight: 700;
+    font-size: large;
+    padding-right: 140px;
+    padding-left: 140px;
+}
+
+.three-actions > div .button-container a.button:any-link:hover {
+    background-color: rgb(208, 208, 208);
+    border-radius: 0;
+    border-color: green;
+    color: green;
+    font-weight: 700;
+    font-size: large;
+    padding-right: 140px;
+    padding-left: 140px;
+}
