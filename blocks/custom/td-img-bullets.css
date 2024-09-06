@@ -43,3 +43,18 @@
 .td-img-bullets > div:last-child > div:first-child ul >li::marker{
     color:#058203;
 }
+
+.td-img-bullets .button-container a.button:any-link {
+    background-color: #fbfcf5;
+    border-radius: 0;
+    color: green;
+    font-weight: 700;
+    font-size: medium;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.td-img-bullets > div .button-container a.button:any-link:hover {
+    color: green;
+    text-decoration: underline;
+}
