@@ -9,5 +9,19 @@
 }
 
 .deposit-bottom h2 {
-    color: green;
+    color: rgb(0, 62, 0);
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deposit-bottom img{
+    width: 150px;
+    height: auto;
+    padding: 20px;
+}
+
+.deposit-bottom p{
+    font-size: 15px;
 }
