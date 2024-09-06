@@ -1,3 +1,11 @@
+.cards-heading h2{
+  color: rgb(0, 62, 0);
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -20,7 +28,11 @@
 }
 
 .cards h3 {
-  font-size: 17pt;
+  font-size: 18px;
+}
+
+.cards p {
+  font-size: 15px;
 }
 
 .cards .cards-card-image {
