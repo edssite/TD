@@ -10,8 +10,11 @@
 }
 
 .cta-2 h2 {
-    color: var(--heading-color-td);
-    font-size: x-large;
+    color: rgb(0, 62, 0);
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cta-2 p {
