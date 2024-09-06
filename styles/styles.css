@@ -12,6 +12,12 @@
 
  @import url("../blocks/custom/cta.css");
  @import url("../blocks/custom/cta-2.css");
+ @import url("../blocks/custom/three-actions.css");
+ @import url("../blocks/custom/deposit-bottom.css");
+ @import url("../blocks/custom/one-col.css");
+ @import url("../blocks/custom/heading.css");
+ @import url("../blocks/custom/cta-flex.css");
+ @import url("../blocks/custom/image-info.css");
  @import url("../blocks/custom/td-cta.css");
  @import url("../blocks/custom/td-img-bullets.css");
  @import url("../blocks/custom/deposit-bottom.css");
@@ -30,6 +36,7 @@
   --text-color: #131313;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
+  --heading-color-td: rgb(3, 136, 3);
 
   /* fonts */
   --body-font-family: arial, roboto, roboto-fallback, sans-serif;
